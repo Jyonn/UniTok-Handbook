@@ -13,6 +13,14 @@ pip install unitok
 
 You can visit [here](installation.md) for more installation options.
 
+A quick example of using UniTok can be found [here](quick_start.md).
+
 ---
 
-A quick example of using UniTok can be found [here](quick_start.md).
+## Call for Contribution
+
+We welcome contributions to UniTok! We appreciate your feedback, bug reports, and pull requests.
+
+## License
+
+This project is licensed under the [MIT](https://raw.githubusercontent.com/Jyonn/UnifiedTokenizer/refs/heads/master/LICENSE) License.

@@ -633,6 +633,26 @@
   
   
     <li class="md-nav__item">
+      <a href="unitok_in_cli.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UniTok in CLI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="faq.html" class="md-nav__link">
         
   
@@ -750,6 +770,213 @@
 <li><strong>interaction-sample.tsv</strong>, a sample of user-item interactions. <a href="https://s.6-79.cn/uZlLdl/interaction-sample.tsv"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7z"/></svg></span></a></li>
 <li><strong>sample-ut.zip</strong>, the tokenized data using UniTok. <a href="https://s.6-79.cn/yYU10e/sample-ut.zip"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7z"/></svg></span></a> (Please unzip it before using)</li>
 </ul>
+<details class="note">
+<summary>news-sample.tsv</summary>
+<table>
+<thead>
+<tr>
+<th>nid</th>
+<th>category</th>
+<th>subcategory</th>
+<th>title</th>
+<th>abstract</th>
+<th>url</th>
+<th>t_ent</th>
+<th>a_ent</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>N88753</td>
+<td>lifestyle</td>
+<td>lifestyleroyals</td>
+<td>The Brands Queen Elizabeth, Prince Charles, and Prince Philip Swear By</td>
+<td>Shop the notebooks, jackets, and more that the royals can't live without.</td>
+<td>https://assets.msn.com/labs/mind/AAGH0ET.html</td>
+<td>[{"Label": "Prince Philip, Duke of Edinburgh", "Type": "P", "WikidataId": "Q80976", "Confidence": 1.0, "OccurrenceOffsets": [48], "SurfaceForms": ["Prince Philip"]}]</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>N45436</td>
+<td>news</td>
+<td>newsscienceandtechnology</td>
+<td>Walmart Slashes Prices on Last-Generation iPads</td>
+<td>Apple's new iPad releases bring big deals on last year's models.</td>
+<td>https://assets.msn.com/labs/mind/AABmf2I.html</td>
+<td>[{"Label": "IPad", "Type": "J", "WikidataId": "Q2796", "Confidence": 0.999, "OccurrenceOffsets": [42], "SurfaceForms": ["iPads"]}]</td>
+<td>[{"Label": "IPad", "Type": "J", "WikidataId": "Q2796", "Confidence": 0.999, "OccurrenceOffsets": [12], "SurfaceForms": ["iPad"]}]</td>
+</tr>
+<tr>
+<td>N23144</td>
+<td>health</td>
+<td>weightloss</td>
+<td>50 Worst Habits For Belly Fat</td>
+<td>These seemingly harmless habits are holding you back and keeping you from shedding that unwanted belly fat for good.</td>
+<td>https://assets.msn.com/labs/mind/AAB19MK.html</td>
+<td>[{"Label": "Adipose tissue", "Type": "C", "WikidataId": "Q193583", "Confidence": 1.0, "OccurrenceOffsets": [20], "SurfaceForms": ["Belly Fat"]}]</td>
+<td>[{"Label": "Adipose tissue", "Type": "C", "WikidataId": "Q193583", "Confidence": 1.0, "OccurrenceOffsets": [97], "SurfaceForms": ["belly fat"]}]</td>
+</tr>
+<tr>
+<td>N86255</td>
+<td>health</td>
+<td>medical</td>
+<td>Dispose of unwanted prescription drugs during the DEA's Take Back Day</td>
+<td></td>
+<td>https://assets.msn.com/labs/mind/AAISxPN.html</td>
+<td>[{"Label": "Drug Enforcement Administration", "Type": "O", "WikidataId": "Q622899", "Confidence": 0.992, "OccurrenceOffsets": [50], "SurfaceForms": ["DEA"]}]</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>N93187</td>
+<td>news</td>
+<td>newsworld</td>
+<td>The Cost of Trump's Aid Freeze in the Trenches of Ukraine's War</td>
+<td>Lt. Ivan Molchanets peeked over a parapet of sand bags at the front line of the war in Ukraine. Next to him was an empty helmet propped up to trick snipers, already perforated with multiple holes.</td>
+<td>https://assets.msn.com/labs/mind/AAJgNsz.html</td>
+<td>[]</td>
+<td>[{"Label": "Ukraine", "Type": "G", "WikidataId": "Q212", "Confidence": 0.946, "OccurrenceOffsets": [87], "SurfaceForms": ["Ukraine"]}]</td>
+</tr>
+<tr>
+<td>N75236</td>
+<td>health</td>
+<td>voices</td>
+<td>I Was An NBA Wife. Here's How It Affected My Mental Health.</td>
+<td>I felt like I was a fraud, and being an NBA wife didn't help that. In fact, it nearly destroyed me.</td>
+<td>https://assets.msn.com/labs/mind/AACk2N6.html</td>
+<td>[]</td>
+<td>[{"Label": "National Basketball Association", "Type": "O", "WikidataId": "Q155223", "Confidence": 1.0, "OccurrenceOffsets": [40], "SurfaceForms": ["NBA"]}]</td>
+</tr>
+<tr>
+<td>N99744</td>
+<td>health</td>
+<td>medical</td>
+<td>How to Get Rid of Skin Tags, According to a Dermatologist</td>
+<td>They seem harmless, but there's a very good reason you shouldn't ignore them. The post How to Get Rid of Skin Tags, According to a Dermatologist appeared first on Reader's Digest.</td>
+<td>https://assets.msn.com/labs/mind/AAAKEkt.html</td>
+<td>[{"Label": "Skin tag", "Type": "C", "WikidataId": "Q3179593", "Confidence": 1.0, "OccurrenceOffsets": [18], "SurfaceForms": ["Skin Tags"]}]</td>
+<td>[{"Label": "Skin tag", "Type": "C", "WikidataId": "Q3179593", "Confidence": 1.0, "OccurrenceOffsets": [105], "SurfaceForms": ["Skin Tags"]}]</td>
+</tr>
+<tr>
+<td>N5771</td>
+<td>health</td>
+<td>cardio</td>
+<td>Check Houston traffic map for current road conditions</td>
+<td></td>
+<td>https://assets.msn.com/labs/mind/AAEKnO1.html</td>
+<td>[{"Label": "Houston", "Type": "G", "WikidataId": "Q16555", "Confidence": 0.941, "OccurrenceOffsets": [6], "SurfaceForms": ["Houston"]}]</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>N124534</td>
+<td>sports</td>
+<td>football_nfl</td>
+<td>Should NFL be able to fine players for criticizing officiating?</td>
+<td>Several fines came down against NFL players for criticizing officiating this week. It's a very bad look for the league.</td>
+<td>https://assets.msn.com/labs/mind/AAJ4lap.html</td>
+<td>[{"Label": "National Football League", "Type": "O", "WikidataId": "Q1215884", "Confidence": 1.0, "OccurrenceOffsets": [7], "SurfaceForms": ["NFL"]}]</td>
+<td>[{"Label": "National Football League", "Type": "O", "WikidataId": "Q1215884", "Confidence": 1.0, "OccurrenceOffsets": [32], "SurfaceForms": ["NFL"]}]</td>
+</tr>
+<tr>
+<td>N51947</td>
+<td>news</td>
+<td>newsscienceandtechnology</td>
+<td>How to record your screen on Windows, macOS, iOS or Android</td>
+<td>The easiest way to record what's happening on your screen, whichever device you're using.</td>
+<td>https://assets.msn.com/labs/mind/AADlomf.html</td>
+<td>[{"Label": "Microsoft Windows", "Type": "J", "WikidataId": "Q1406", "Confidence": 1.0, "OccurrenceOffsets": [29], "SurfaceForms": ["Windows"]}]</td>
+<td>[]</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="note">
+<summary>user-sample.tsv</summary>
+<table>
+<thead>
+<tr>
+<th>uid</th>
+<th>history</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>U12</td>
+<td>N88753,N45436,N23144</td>
+</tr>
+<tr>
+<td>U34</td>
+<td>N86255,N93187,N75236,N99744</td>
+</tr>
+<tr>
+<td>U56</td>
+<td>N88753,N93187,N5771</td>
+</tr>
+<tr>
+<td>U78</td>
+<td>N124534,N51947,N99744</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="note">
+<summary>interaction-sample.tsv</summary>
+<table>
+<thead>
+<tr>
+<th>uid</th>
+<th>nid</th>
+<th>click</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>U12</td>
+<td>N5771</td>
+<td>1</td>
+</tr>
+<tr>
+<td>U12</td>
+<td>N93187</td>
+<td>1</td>
+</tr>
+<tr>
+<td>U12</td>
+<td>N124534</td>
+<td>0</td>
+</tr>
+<tr>
+<td>U34</td>
+<td>N23144</td>
+<td>1</td>
+</tr>
+<tr>
+<td>U34</td>
+<td>N88753</td>
+<td>0</td>
+</tr>
+<tr>
+<td>U56</td>
+<td>N86255</td>
+<td>1</td>
+</tr>
+<tr>
+<td>U56</td>
+<td>N99744</td>
+<td>0</td>
+</tr>
+<tr>
+<td>U78</td>
+<td>N88753</td>
+<td>1</td>
+</tr>
+<tr>
+<td>U78</td>
+<td>N75236</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+</details>
 <h2 id="loading-data">Loading Data</h2>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
@@ -802,6 +1029,7 @@
 </span><span id="__span-1-26"><a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a>    <span class="n">inter_ut</span><span class="o">.</span><span class="n">add_job</span><span class="p">(</span><span class="n">tokenizer</span><span class="o">=</span><span class="n">EntityTokenizer</span><span class="p">(</span><span class="n">vocab</span><span class="o">=</span><span class="n">item_vocab</span><span class="p">),</span> <span class="n">column</span><span class="o">=</span><span class="s1">&#39;nid&#39;</span><span class="p">)</span>
 </span><span id="__span-1-27"><a id="__codelineno-1-27" name="__codelineno-1-27" href="#__codelineno-1-27"></a>    <span class="n">inter_ut</span><span class="o">.</span><span class="n">add_job</span><span class="p">(</span><span class="n">tokenizer</span><span class="o">=</span><span class="n">DigitTokenizer</span><span class="p">(</span><span class="n">vocab</span><span class="o">=</span><span class="s1">&#39;click&#39;</span><span class="p">,</span> <span class="n">vocab_size</span><span class="o">=</span><span class="mi">2</span><span class="p">),</span> <span class="n">column</span><span class="o">=</span><span class="s1">&#39;click&#39;</span><span class="p">)</span>
 </span></code></pre></div>
+<p>Please refer to the <a href="vocabulary.html">Vocabulary</a>, <a href="tokenizer.html">Tokenizer</a>, and <a href="job.html">Job</a> pages for more information.</p>
 <h2 id="tokenizing-and-saving-data">Tokenizing and Saving Data</h2>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">item_ut</span><span class="o">.</span><span class="n">tokenize</span><span class="p">(</span><span class="n">item</span><span class="p">)</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s1">&#39;sample-ut/item&#39;</span><span class="p">)</span>
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">item_vocab</span><span class="o">.</span><span class="n">deny_edit</span><span class="p">()</span>  <span class="c1"># will raise an error if new items are detected in the user or interaction datasets</span>
@@ -824,6 +1052,7 @@
 </span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>    <span class="c1"># =&gt; {&#39;index&#39;: 0, &#39;click&#39;: 1, &#39;uid&#39;: 0, &#39;nid&#39;: 7, &#39;history&#39;: [0, 1, 2]}</span>
 </span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">inter_ut</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 </span></code></pre></div>
+<p>Please refer to the <a href="unitok.html">UniTok</a> page for more information.</p>
 <h2 id="glance-at-the-terminal">Glance at the Terminal</h2>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>unitok<span class="w"> </span>sample-ut/item
 </span></code></pre></div>
@@ -893,6 +1122,7 @@
 </tr>
 </tbody>
 </table>
+<p>Please refer to the <a href="unitok_in_cli.html">UniTok in CLI</a> page for more information.</p>
 
 
 

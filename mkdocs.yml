@@ -22,6 +22,7 @@ nav:
         - Custom Tokenizer: tokenizer/custom_tokenizer.md
       - Job: job.md
   - Integrate with PyTorch: integrate_with_pytorch.md
+  - UniTok in CLI: unitok_in_cli.md
   - FAQ: faq.md
 #  - PyPI: https://pypi.org/project/UniTok/
 
