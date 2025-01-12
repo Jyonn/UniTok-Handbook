@@ -1,0 +1,55 @@
+site_name: UniTok v4 Handbook
+site_url: https://pypi.org/project/UniTok/
+repo_url: https://github.com/Jyonn/UnifiedTokenizer/
+edit_uri: ''
+site_author: Qijiong Liu
+site_description: A handbook for UniTok, a machine learning toolkit for tokenization.
+copyright: Copyright © 2025 UniTok
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Quick Start: quick_start.md
+  - UniTok: unitok.md
+  - Components:
+      - Vocabulary: vocabulary.md
+      - Tokenizer:
+        - Overview: tokenizer.md
+        - Entity Tokenizer: tokenizer/entity_tokenizer.md
+        - Digit Tokenizer: tokenizer/digit_tokenizer.md
+        - Split Tokenizer: tokenizer/split_tokenizer.md
+        - Text Tokenizer: tokenizer/text_tokenizer.md
+        - Custom Tokenizer: tokenizer/custom_tokenizer.md
+      - Job: job.md
+  - Integrate with PyTorch: integrate_with_pytorch.md
+  - FAQ: faq.md
+#  - PyPI: https://pypi.org/project/UniTok/
+
+theme:
+  name: 'material'
+#  custom_dir: 'material'
+
+plugins:
+  - offline
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
