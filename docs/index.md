@@ -21,6 +21,19 @@ A quick example of using UniTok can be found [here](quick_start.md).
 
 We welcome contributions to UniTok! We appreciate your feedback, bug reports, and pull requests.
 
+## Citation
+
+If you use UniTok in your research, please cite the following paper:
+
+```bibtex
+@online{unitok,
+  author = {Jyonn},
+  title = {UniTok v4: A Machine Learning Toolkit for Tokenization and Indexing},
+  year = 2025,
+  url = {https://unitok.qijiong.work}
+}
+```
+
 ## License
 
 This project is licensed under the [MIT](https://raw.githubusercontent.com/Jyonn/UnifiedTokenizer/refs/heads/master/LICENSE) License.
