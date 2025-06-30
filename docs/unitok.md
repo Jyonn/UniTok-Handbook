@@ -23,6 +23,7 @@ graph LR
   A[Initialized] --> |tokenize| B[Tokenized];
   B --> |union/filter| C[Organized];
   C --> |save| D[Disk];
+  B --> |save| D;
   D --> |UniTok.load| B;
 ```
 

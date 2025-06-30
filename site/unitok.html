@@ -1207,6 +1207,7 @@ It is used to manage the tokenization process for a specific dataframe.</p>
   A[Initialized] --&gt; |tokenize| B[Tokenized];
   B --&gt; |union/filter| C[Organized];
   C --&gt; |save| D[Disk];
+  B --&gt; |save| D;
   D --&gt; |UniTok.load| B;</code></pre>
 <h2 id="constructor">Constructor</h2>
 <h3 id="class-unitokunitok"><code>CLASS</code> unitok.UniTok()</h3>
